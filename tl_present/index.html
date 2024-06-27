@@ -14,143 +14,181 @@
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
 	</head>
 	<body>
-		<div class="reveal">
-			<div class="slides">
-			  <section>TIC-80
-                <p>A retro fantasy computer</p>
+	  <div class="reveal">
 
-  <aside class="notes">
-    Shhh, these are your private notes
-  </aside>
-              </section>
+		<div class="slides">
+		  <section data-background-video="palm_trees.mkv"
+                   data-background-video-muted="true"
+                   data-background-size="cover"
+                   >
+            <b style="font-size: 8vw;
 
-              <section>
-                What is TIC-80?
-<ul><li>
-nostalgia of programming an 8 bit, but with rough edges removed,
-   replace BASIC/ASM with Lua.
-</li>
-<li>
-If you aren't old enough, Artificial limitations make it easier to do things
-   quickly.
-</li>
-</ul></section>
+background: linear-gradient(to bottom, rgba(244,216,244,1) 0%, rgba(226,216,241,1) 50%, rgba(106,76,120,1) 51%, rgba(195,136,188,1) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: #fff;
+      z-index: 1;
+">
+            Summer of TIC-80</b>
+            <p>A retro fantasy summer</p>
+          </section>
 
-              <section>
-                PICO-8
-                <ol>
-                  <li>
-                    More popular
-                                      </li><li>
-                    Celeste, hit on steam/PS4/XB1, started on PICO-8
-                                      </li><li>
-                    NOT widescreen
-                                      </li><li>
-                    NO gamepads
-                                      </li><li>
-                    NOT open source
-                  </li>
-                </ol>
-                </section>
+		  <div class="slides">
+			<section>First: TIC-80
+              <p>A retro fantasy computer</p>
 
+              <aside class="notes">
+                Shhh, these are your private notes
+              </aside>
+            </section>
 
-<section>
-  Specs
-  <ul>
-<li>
-  240x136 pixels, 16 colors, 4 channels of, 64KB of code/data.
-</li>
-</ul>
-</section>
+            <section>
+              What is TIC-80?
+              <ul><li>
+                  nostalgia of programming an 8 bit, but with rough edges removed,
+                  replace BASIC/ASM with Lua.
+                </li>
+                <li>
+                  If you aren't old enough, Artificial limitations make it easier to do things
+                  quickly.
+                </li>
+            </ul></section>
 
-<section>
-  Commercial version
-  <ul>
-<li>
-  Saves in text format.
-</li>
-<li>
-  Export standalone games.
-</li>
-<li>
-  $10
-  </li>
-  </ul>
+            <section>
+              PICO-8
+              <ol>
+                <li>
+                  More popular
+                </li><li>
+                  Celeste, hit on steam/PS4/XB1, started on PICO-8
+                </li><li>
+                  NOT widescreen
+                </li><li>
+                  NO gamepads
+                </li><li>
+                  NOT open source
+                </li>
+              </ol>
+            </section>
 
-  <aside class="notes">
-    Wonder if simple flag when building from source.
+            <section>
+              Specs
+              <ul>
+                <li>
+                  240x136 pixels, 16 colors, 4 channels of, 64KB of code/data.
+                </li>
+              </ul>
+            </section>
 
-    Recommended.
-  </aside>
+            <section>
+              Commercial version
+              <ul>
+                <li>
+                  Saves in text format.
+                </li>
+                <li>
+                  Export standalone games.
+                </li>
+                <li>
+                  $10
+                </li>
+              </ul>
 
-</section>
+              <aside class="notes">
+                Wonder if simple flag when building from source.
 
+                Recommended.
+              </aside>
 
+            </section>
 
-			  <section><img src="base_screen_1.png" />
-              </section>
-			  <section><img src="base_screen_2.png" />
-              </section>
-              <section><img src="base_screen_3.png" />
-  <aside class="notes">
-    Unlike GB, can just draw directly as well.
-  </aside>
+            <section>
+              Example games
+            </section>
 
-              </section>
-              <section><img src="base_screen_4.png" />
-              </section>
-              <section><img src="base_screen_5.png" />
-  <aside class="notes">
-    Less hard than GB, still probably worth finding someone elses library.
-  </aside>
+			<section><img src="mario_clone.png" />
+            </section>
 
-              </section>
-              <section><img src="base_screen_6.png" />
-  <aside class="notes">
-    piano roll
-  </aside>
+            <section><img src="rpg.png" />
+            </section>
 
-              </section>
-              <section><img src="base_screen_7.png" />
-  <aside class="notes">
-    tracker
-  </aside>
-
-              </section>
-
-              <section>
-                PONG
-              </section>
+			<section><img src="portal.png" />
+            </section>
 
 
-              <section><img src="ai_1.png" />
-              </section>
-              <section><img src="ai_2.png" />
-              </section>
-              <section><img src="ai_3.png" />
-              </section>
-              <section><img src="ai_4.png" />
-              </section>
+            <section>
+              Tour
+            </section>
 
-              <section><img src="buggy.png" /><br />
-                I suspect that this is more code for PICO-8 than TIC-80.
-              </section>
+			<section><img src="base_screen_1.png" />
+            </section>
+			<section><img src="base_screen_2.png" />
+            </section>
+            <section><img src="base_screen_3.png" />
+              <aside class="notes">
+                Unlike GB, can just draw directly as well.
+              </aside>
+
+            </section>
+            <section><img src="base_screen_4.png" />
+            </section>
+            <section><img src="base_screen_5.png" />
+              <aside class="notes">
+                Less hard than GB, still probably worth finding someone elses library.
+              </aside>
+
+            </section>
+            <section><img src="base_screen_6.png" />
+              <aside class="notes">
+                piano roll
+              </aside>
+
+            </section>
+            <section><img src="base_screen_7.png" />
+              <aside class="notes">
+                tracker
+              </aside>
+            </section>
+
+            <section>
+              PONG
+            </section>
 
 
-              <section>
-                Are people interested in
-6 weeks of TIC 80?
+            <section><img src="ai_1.png" />
+            </section>
+            <section><img src="ai_2.png" />
+            </section>
+            <section><img src="ai_3.png" />
+            </section>
+            <section><img src="ai_4.png" />
+            </section>
+
+            <section><img src="buggy.png" /><br />
+              I suspect that this is more code for PICO-8 than TIC-80.
+            </section>
 
 
-                Contact on Slack
-                #summeroftic80
+            <section>Show fix in TIC-80
+              <aside class="notes">
+                pong2.lua
+              </aside>
+            </section>
 
-                Wednesdays.
-                </section>
+            <section>
+              Are people interested in
+              6 weeks of TIC 80?
+
+
+              Contact on Slack
+              #summeroftic80
+
+              Wednesdays.
+            </section>
 
 
 
-			</div>
+		  </div>
 		</div>
 
 		<script src="dist/reveal.js"></script>
@@ -158,15 +196,15 @@ If you aren't old enough, Artificial limitations make it easier to do things
 		<script src="plugin/markdown/markdown.js"></script>
 		<script src="plugin/highlight/highlight.js"></script>
 		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+		  // More info about initialization & config:
+		  // - https://revealjs.com/initialization/
+		  // - https://revealjs.com/config/
+		  Reveal.initialize({
+			hash: true,
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+		  });
 		</script>
 	</body>
 </html>
